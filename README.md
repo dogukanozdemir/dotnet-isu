@@ -2,13 +2,14 @@
 
 ilk başta uygulamaya login sayfa ile giriş yapabilirsiniz
 database'de tek bir kullanıcı bulunmaktadır
+
 Kullanıcı adı: isubt
 Şifre: isu2023
 
 -------------------------------
 
 Sistem'e giriş yaptıktan sonra açılan formda gerekli alanları doldurarak Database'e Contact form olarak Create işlemi gerçekleştirebilirsiniz
-Form'da Email kısmındaki mail adresine de atılan kayıt mail gitmektedir.D
+Form'da Email kısmındaki mail adresine de atılan kayıt mail gitmektedir.
 
 Diğer bütün işlemlerin view'ı yoktur, sadece ApiControllerdır, Diğer mevcut işlemler:
 * Bütün create edilen kayıtları listleme **GET** `/api/ContactList`
